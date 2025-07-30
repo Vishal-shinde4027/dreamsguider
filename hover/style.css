@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.logo{
+height: 100%;
+width: 20%;
+background-color: antiquewhite;
+}
+.menus{
+    height: 100%;
+    width: 60%;
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+
+.menus ul{
+   height: 100%;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.menus ul li{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(159, 159, 179);
+}
+
+
+.homemenus{
+    height: 400px;
+    width: 800px;
+    background-color: salmon;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    display: none;
+
+}
+
+
+
+.homebar{
+    height: 100%;
+    width: 100%;
+}
+
+.homebar:hover + .homemenus{
+    display: block;
+}
+
+.surchicon{
+    height: 100%;
+    width: 20%;
+    background-color: blueviolet;
+}
+
+
+.homemenus:hover{
+    display: block;
+}
+
+

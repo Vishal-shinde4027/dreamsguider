@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    
+}
+
+.icon{
+    height: 50px;
+    width: 10%;
+    background-color: aliceblue;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.menu{
+    height: 50px;
+    width: 80%;
+}
+
+.logo{
+    height: 50px;
+    width: 10%;
+    background-color:rgb(10, 125, 226);
+}
+.herosection{
+    height: 680px;
+    width: 100%;
+    background-color: rgb(221, 248, 169);
+   
+
+}
+
+.about{
+    height: 150px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.img{
+    height: 380px;
+    width: 100%;
+}
+
+.info{
+    height: 150px;
+    width: 100%;
+    background-color: yellowgreen;
+}

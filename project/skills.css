@@ -1,0 +1,213 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.maindiv{
+    height: 730px;
+    width: 100%;
+    background-color: rgb(220, 189, 151);
+    
+}
+
+
+.heading{
+    height: 210px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.heading h2{
+    font-size: 50px;
+}
+
+.img1{
+    height: 210px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.html{
+    height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.html img{
+    height: 120px;
+}
+
+.css{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.css img{
+     height: 140px;
+    
+}
+
+.java{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.java img{
+    height: 120px;
+}
+
+
+.sass{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sass img{
+    height: 120px;
+}
+
+.react{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.react img{
+    height: 120px;
+}
+
+.img2{
+    height: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.github{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.github img{
+    height: 120px;
+}
+
+.node{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.node img{
+    height: 120px;
+}
+
+.firebase{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.firebase img{
+    height: 120px;
+}
+
+.mongodb{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mongodb img{
+    height: 120px;
+}
+
+.dockers{
+     height: 180px;
+    width: 200px;
+    background-color: aliceblue;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dockers img{
+    height: 100px;
+    margin-top: 20px;
+}
+
+.empty{
+    height: 100px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty button{
+    height: 30px;
+    width: 102px;
+    border-radius: 15px;
+}

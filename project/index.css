@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: antiquewhite;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-bottom: 1px solid black;
+}
+
+.logo{
+    height: 50px;
+    width: 40%;
+    
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+     color: rgb(139, 139, 233);
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.menus{
+    height: 50px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 50px;
+    
+}
+
+
+.button{
+    height: 50px;
+    width: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button button{
+    height: 30px;
+    width: 100px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.herosection{
+    height: 660px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+    
+}
+
+.info{
+    height: 650px;
+    width: 50%;
+    
+    display: flex;
+     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;
+    margin-top: 80px;
+}
+
+.info h1{
+    font-size: 60px;
+    
+}
+
+.info h2{
+    font-size: 20px;
+    font-family: none;
+}
+.img{
+    height: 650px;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex; display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+ 
+}
+
+.but11{
+    margin-top: 10px;
+    margin-left: 155px;
+    
+}
+
+#fu{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(36, 185, 244);
+    color: white;
+}
+
+#ui{
+    border-radius: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+#ai{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(89, 196, 232);
+    color: white;
+}
+
+#au{
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+
+}
+
+#de{
+    border-radius: 30px;
+    border: none;
+    background-color: orangered;
+    color: white;
+
+
+}
+
+#en{
+    border-radius: 30px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
+.info p{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.symbol{
+  display: flex;
+gap: 30px;
+}
+
+.symbol{
+    font-size: 20px;
+}
+
+
+
+#get{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+#do{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.img img{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 200px;
+    margin-top: 45px;
+
+}

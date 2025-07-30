@@ -1,0 +1,164 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.maindiv{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(./tree\ img.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    
+    display: flex;
+}
+.logo{
+    height: 70px;
+    width: 20%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-size: 40px;
+    color: orange;
+}
+
+.menu{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu h2{
+    font-size: 20px;
+}
+
+.inputbox{
+    height: 70px;
+    width: 30%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.inputbox input{
+    padding: 10px 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+}
+
+
+
+
+.inputbox button{
+    padding: 10px 10px;
+    
+    outline: none;
+    border: 1px solid white;
+
+}
+
+.herosection{
+    height: 660px;
+    width: 100%;
+   
+    display: flex;
+}
+
+.text{
+    height: 660px;
+    width: 50%;
+   
+    padding: 150px 70px;
+    
+
+}
+
+.text h1{
+    font-size: 60px;
+}
+
+.text h2{
+    font-size: 40px;
+}
+
+.text button{
+    margin-top: 20px;
+    padding: 8px 30px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#but{
+    color: orange;
+    font-size: 20px;
+}
+
+.card{
+    height: 660px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    height: 450px;
+    width: 45%;
+    background-color: rgb(58, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 10px;
+}
+ 
+
+.form button{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    
+    
+}
+
+.form input{
+    height: 30px;
+    width: 250px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.form p{
+    color: white;
+    text-align: center;
+}
+
+.icon{
+    color: white;
+   font-size: 30px;
+}

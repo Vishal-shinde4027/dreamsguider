@@ -1,0 +1,735 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+.logo{
+    height: 50px;
+    width: 15%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    height: 50px;
+    width: 65%;
+   
+   display: flex;
+   align-items: center;
+   gap: 25px;
+   font-size: 15px;
+
+}
+
+.but{
+    height: 50px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+#signup{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+#login{
+    font-size: 20px;
+    padding: 7px 20px;
+    color: white;
+    background: #000;
+    border: none;
+    border-radius: 20px;
+}
+
+.section1{
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.info{
+    height: 500px;
+    width: 50%;
+}    
+
+
+.hedding{
+    height: 250px;
+    width: 100%;
+    padding: 40px 50px;
+
+}   
+
+.hedding h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.hedding p{
+    font-size: 17px;
+}
+
+.iconbut{
+    height: 50px;
+    width: 100%;
+   
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+#blackbut{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.iconbut button{
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchbox{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.searchbox input{
+    height: 50px;
+    width: 650px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(225, 219, 219);
+    border: none;
+
+}
+
+.po{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(201, 12, 135);
+    position: relative;
+    right: 7%;
+}
+.Hbut{
+    height: 50px;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+#popular{
+    border: none;
+    background-color: transparent;
+}
+
+.Hbut button{
+    font-size: 12px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+}
+
+#bot{
+    font-size: 12px;
+    height: 35px;
+    width: 60px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+
+}
+
+
+.add{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+#add{
+    height: 450px;
+    width: 650px;
+    border-radius: 20px;
+
+}
+
+
+.navbar2{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.but2{
+    height: 50px;
+    width: 20%;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+#pop{
+    height: 40px;
+    width: 90px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#dis{
+     height: 40px;
+    width: 90px;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(225, 219, 219);
+
+}
+
+.menu2{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.filters{
+    height: 50px;
+    width: 20%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.filters button{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid black;
+}
+
+.slide1{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.img1{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+.img1 img{
+    height: 240px;
+    width: 330px;
+    border-radius:10px;
+}
+ 
+.des1{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 8px;
+}
+
+.des1 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like1{
+    margin-left: 100px;
+    color: rgb(148, 142, 142);
+}
+
+#Team{
+    border: none;
+    height: 20px;
+    width: 45px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(180, 175, 175);
+}
+
+#PRO{
+    border: none;
+    height: 20px;
+    width: 45px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(180, 175, 175);
+}
+
+
+.img2{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+.img2 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des2{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 8px;
+}
+
+.des2 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like2{
+    margin-left: 50px;
+    color: rgb(148, 142, 142);
+    
+}
+
+
+.img3{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+.img3 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des3{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 8px;
+}
+
+.des3 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like3{
+    margin-left: 50px;
+    color: rgb(148, 142, 142);
+    
+}
+
+
+.img4{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+.img4 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des4{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des4 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like4{
+    margin-left: 30px;
+    color: rgb(148, 142, 142);
+    
+}
+
+
+
+.slide2{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+     display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.img5{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+.img5 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des5{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des5 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like5{
+    margin-left: 30px;
+    color: rgb(148, 142, 142);
+    
+}
+
+.img6{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+.img6 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des6{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des6 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like6{
+    margin-left: 50px;
+    color: rgb(148, 142, 142);
+    
+}
+
+.img7{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+.img7 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des7{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des7 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like7{
+    margin-left: 10px;
+    color: rgb(148, 142, 142);
+    
+}
+
+
+.img8{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+
+.img8 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des8{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des8 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like8{
+    margin-left: 50px;
+    color: rgb(148, 142, 142);
+    
+}
+
+
+
+.slide3{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding-left: 50px;
+    gap: 30px;
+    align-items: center;
+}
+
+.img9{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+
+
+.img9 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des9{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des9 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like9{
+    margin-left: 50px;
+    color: rgb(148, 142, 142);
+    
+}
+
+.img10{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+
+.img10 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des10{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des10 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like10{
+    margin-left: 20px;
+    color: rgb(148, 142, 142);
+    
+}
+
+.img11{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+
+
+.img11 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des11{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des11 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like11{
+    margin-left: 70px;
+    color: rgb(148, 142, 142);
+    
+}
+
+.img12{
+    height: 280px;
+    width: 330px;
+    background-color: white;
+}
+
+
+
+
+.img12 img{
+    height: 240px;
+    width: 330px;
+    border-radius: 10px;
+}
+ 
+.des12{
+    display: flex;
+    align-items: center;
+    padding-left:10px;
+    gap: 8px;
+}
+
+.des12 img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+   
+
+}
+
+.like12{
+    margin-left: 80px;
+    color: rgb(148, 142, 142);
+    
+}
